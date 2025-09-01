@@ -25,7 +25,7 @@ async def Inference(file_loc,prompt:str):
             print(f"file:{files[i]}")
     
     # Making Model prediction
-    time.sleep(10)
+    time.sleep(5)
 
     #Returning model output
     return {'msg':f'In this file the user request was {prompt} and the model has evaluated this response and has found that in the given file there is a closed room in which there is a chair and table with airconditoner and a light running and a fan is running and also 4 people sitting near table talking to eachother.There is a person eating food and other person is using his model device'}
